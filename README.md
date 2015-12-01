@@ -55,48 +55,50 @@ Higher numbers are better.
                       RUNTIME PERFORMANCE
                       ===================
                       friends
-                   ✓ marko »    4,352 op/s (fastest)
-                    ✗ dust »      930 op/s (78.63% slower)
+                   ✓ marko »    2,972 op/s (fastest)
+                    ✗ dust »      583 op/s (80.38% slower)
 
                       if-expression
-                   ✓ marko »  367,776 op/s (fastest)
-                    ✗ dust »   45,983 op/s (87.50% slower)
+                   ✓ marko »  212,818 op/s (fastest)
+                    ✗ dust »   24,585 op/s (88.45% slower)
 
                       projects-escaped
-                   ✓ marko »   95,146 op/s (fastest)
-      ✗ marko (native-for) »   92,505 op/s (2.78% slower)
-              ✗ handlebars »   50,685 op/s (46.73% slower)
-                    ✗ dust »   44,989 op/s (52.72% slower)
+                   ✓ marko »   50,530 op/s (fastest)
+      ✗ marko (native-for) »   49,674 op/s (1.69% slower)
+              ✗ handlebars »   33,514 op/s (33.68% slower)
+                    ✗ dust »   33,248 op/s (34.20% slower)
 
                       projects-unescaped
-                   ✓ marko »  365,939 op/s (fastest)
-      ✗ marko (native-for) »  332,373 op/s (9.17% slower)
-              ✗ handlebars »  227,143 op/s (37.93% slower)
-                    ✗ dust »   87,574 op/s (76.07% slower)
+                   ✓ marko »  212,036 op/s (fastest)
+      ✗ marko (native-for) »  197,457 op/s (6.88% slower)
+              ✗ handlebars »   84,314 op/s (60.24% slower)
+                    ✗ dust »   60,218 op/s (71.60% slower)
 
                       reverse-helper
-                   ✓ marko »  451,932 op/s (fastest)
-                    ✗ dust »  298,629 op/s (33.92% slower)
+                   ✓ marko »  288,654 op/s (fastest)
+                    ✗ dust »  199,262 op/s (30.97% slower)
 
                       search-results
-                   ✓ marko »   38,032 op/s (fastest)
-      ✗ marko (native-for) »   32,919 op/s (13.44% slower)
-                    ✗ dust »   11,527 op/s (69.69% slower)
+      ✓ marko (native-for) »   28,367 op/s (fastest)
+                   ✗ marko »   26,269 op/s (7.40% slower)
+                    ✗ dust »    9,193 op/s (67.59% slower)
 
                       simple-1
-                   ✓ marko »  238,128 op/s (fastest)
-      ✗ marko (native-for) »  233,120 op/s (2.10% slower)
-                     ✗ dot »  211,886 op/s (11.02% slower)
-              ✗ handlebars »  113,257 op/s (52.44% slower)
-                    ✗ dust »   74,620 op/s (68.66% slower)
-                    ✗ swig »   62,635 op/s (73.70% slower)
-                    ✗ jade »   43,807 op/s (81.60% slower)
-                ✗ nunjucks »   36,891 op/s (84.51% slower)
-                  ✗ plates »    9,911 op/s (95.84% slower)
+                     ✓ dot »  147,551 op/s (fastest)
+      ✗ marko (native-for) »  121,891 op/s (17.39% slower)
+                   ✗ marko »  115,655 op/s (21.62% slower)
+                    ✗ dust »   60,204 op/s (59.20% slower)
+              ✗ handlebars »   43,070 op/s (70.81% slower)
+                     ✗ ktl »   39,344 op/s (73.34% slower)
+                    ✗ swig »   35,587 op/s (75.88% slower)
+                    ✗ jade »   30,236 op/s (79.51% slower)
+                ✗ nunjucks »   20,415 op/s (86.16% slower)
+                  ✗ plates »    5,345 op/s (96.38% slower)
 
                       simple-2
-                   ✓ marko »  297,536 op/s (fastest)
-                    ✗ dust »  122,809 op/s (58.72% slower)
+                   ✓ marko »  155,279 op/s (fastest)
+                    ✗ dust »   70,112 op/s (54.85% slower)
+                     ✗ ktl »   45,236 op/s (70.87% slower)
 ```
 <!-- </performance> -->
 
@@ -161,6 +163,8 @@ Lower numbers are better.
                                     8.86% larger               8.44% larger
                     ✗ dust »   249 bytes gzipped     462 bytes uncompressed
                                    13.25% larger              36.58% larger
+                     ✗ ktl »   252 bytes gzipped     423 bytes uncompressed
+                                   14.29% larger              30.73% larger
                     ✗ jade »   337 bytes gzipped     664 bytes uncompressed
                                    35.91% larger              55.87% larger
                      ✗ dot »   353 bytes gzipped     523 bytes uncompressed
@@ -177,6 +181,8 @@ Lower numbers are better.
                                       (smallest)                 (smallest)
                     ✗ dust »   268 bytes gzipped     648 bytes uncompressed
                                     4.85% larger              25.31% larger
+                     ✗ ktl »   292 bytes gzipped     759 bytes uncompressed
+                                   12.67% larger              36.23% larger
 ```
 <!-- </size> -->
 

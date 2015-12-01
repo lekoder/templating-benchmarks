@@ -75,6 +75,7 @@
             "dust": 249,
             "handlebars": 418,
             "jade": 337,
+            "ktl": 252,
             "marko": 216,
             "marko (native-for)": 237,
             "nunjucks": 448,
@@ -85,6 +86,7 @@
             "dust": 462,
             "handlebars": 818,
             "jade": 664,
+            "ktl": 423,
             "marko": 293,
             "marko (native-for)": 320,
             "nunjucks": 910,
@@ -94,10 +96,12 @@
     "simple-2": {
         "gzipped": {
             "dust": 268,
+            "ktl": 292,
             "marko": 255
         },
         "uncompressed": {
             "dust": 648,
+            "ktl": 759,
             "marko": 484
         }
     }
