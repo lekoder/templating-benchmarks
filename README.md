@@ -55,51 +55,52 @@ Higher numbers are better.
                       RUNTIME PERFORMANCE
                       ===================
                       friends
-                   ✓ marko »    2,785 op/s (fastest)
-                    ✗ dust »      616 op/s (77.88% slower)
+                   ✓ marko »    2,348 op/s (fastest)
+                    ✗ dust »      619 op/s (73.64% slower)
 
                       if-expression
-                   ✓ marko »  207,256 op/s (fastest)
-                    ✗ dust »   23,739 op/s (88.55% slower)
+                   ✓ marko »  214,135 op/s (fastest)
+                    ✗ dust »   24,530 op/s (88.54% slower)
 
                       projects-escaped
-                   ✓ marko »   50,036 op/s (fastest)
-      ✗ marko (native-for) »   49,600 op/s (0.87% slower)
-              ✗ handlebars »   33,160 op/s (33.73% slower)
-                    ✗ dust »   29,947 op/s (40.15% slower)
+      ✓ marko (native-for) »   50,692 op/s (fastest)
+                   ✗ marko »   49,243 op/s (2.86% slower)
+                    ✗ dust »   34,440 op/s (32.06% slower)
+              ✗ handlebars »   32,582 op/s (35.73% slower)
 
                       projects-unescaped
-                   ✓ marko »  216,655 op/s (fastest)
-      ✗ marko (native-for) »  208,348 op/s (3.83% slower)
-              ✗ handlebars »   86,382 op/s (60.13% slower)
-                    ✗ dust »   57,332 op/s (73.54% slower)
+                   ✓ marko »  201,176 op/s (fastest)
+      ✗ marko (native-for) »  194,736 op/s (3.20% slower)
+              ✗ handlebars »   84,546 op/s (57.97% slower)
+                    ✗ dust »   56,765 op/s (71.78% slower)
+                     ✗ ktl »   48,004 op/s (76.14% slower)
 
                       reverse-helper
-                   ✓ marko »  296,529 op/s (fastest)
-                    ✗ dust »  197,303 op/s (33.46% slower)
+                   ✓ marko »  301,232 op/s (fastest)
+                    ✗ dust »  204,108 op/s (32.24% slower)
 
                       search-results
-      ✓ marko (native-for) »   24,830 op/s (fastest)
-                   ✗ marko »   23,852 op/s (3.94% slower)
-                    ✗ dust »    9,538 op/s (61.59% slower)
-                     ✗ ktl »    4,003 op/s (83.88% slower)
+      ✓ marko (native-for) »   24,437 op/s (fastest)
+                   ✗ marko »   23,080 op/s (5.55% slower)
+                    ✗ dust »    9,286 op/s (62.00% slower)
+                     ✗ ktl »    4,046 op/s (83.44% slower)
 
                       simple-1
-                     ✓ dot »  132,695 op/s (fastest)
-      ✗ marko (native-for) »  114,624 op/s (13.62% slower)
-                   ✗ marko »  112,522 op/s (15.20% slower)
-                    ✗ dust »   58,848 op/s (55.65% slower)
-              ✗ handlebars »   41,740 op/s (68.54% slower)
-                     ✗ ktl »   36,091 op/s (72.80% slower)
-                    ✗ swig »   34,814 op/s (73.76% slower)
-                    ✗ jade »   27,976 op/s (78.92% slower)
-                ✗ nunjucks »   19,502 op/s (85.30% slower)
-                  ✗ plates »    5,293 op/s (96.01% slower)
+                     ✓ dot »  130,958 op/s (fastest)
+      ✗ marko (native-for) »  108,944 op/s (16.81% slower)
+                   ✗ marko »  107,081 op/s (18.23% slower)
+                    ✗ dust »   58,328 op/s (55.46% slower)
+              ✗ handlebars »   40,638 op/s (68.97% slower)
+                     ✗ ktl »   35,311 op/s (73.04% slower)
+                    ✗ swig »   33,671 op/s (74.29% slower)
+                    ✗ jade »   26,203 op/s (79.99% slower)
+                ✗ nunjucks »   19,558 op/s (85.07% slower)
+                  ✗ plates »    5,183 op/s (96.04% slower)
 
                       simple-2
-                   ✓ marko »  146,523 op/s (fastest)
-                    ✗ dust »   69,467 op/s (52.59% slower)
-                     ✗ ktl »   44,435 op/s (69.67% slower)
+                   ✓ marko »  147,338 op/s (fastest)
+                    ✗ dust »   70,011 op/s (52.48% slower)
+                     ✗ ktl »   44,837 op/s (69.57% slower)
 ```
 <!-- </performance> -->
 
@@ -140,6 +141,8 @@ Lower numbers are better.
                                     7.09% larger              36.30% larger
       ✗ marko (native-for) »   273 bytes gzipped     406 bytes uncompressed
                                     8.79% larger               6.65% larger
+                     ✗ ktl »   292 bytes gzipped     695 bytes uncompressed
+                                   14.73% larger              45.47% larger
               ✗ handlebars »   521 bytes gzipped    1556 bytes uncompressed
                                    52.21% larger              75.64% larger
 

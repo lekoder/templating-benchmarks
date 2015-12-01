@@ -37,12 +37,14 @@
         "gzipped": {
             "dust": 268,
             "handlebars": 521,
+            "ktl": 292,
             "marko": 249,
             "marko (native-for)": 273
         },
         "uncompressed": {
             "dust": 595,
             "handlebars": 1556,
+            "ktl": 695,
             "marko": 379,
             "marko (native-for)": 406
         }
