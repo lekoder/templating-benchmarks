@@ -60,11 +60,13 @@
     "search-results": {
         "gzipped": {
             "dust": 545,
+            "ktl": 655,
             "marko": 536,
             "marko (native-for)": 575
         },
         "uncompressed": {
             "dust": 1523,
+            "ktl": 2648,
             "marko": 1189,
             "marko (native-for)": 1242
         }
@@ -75,7 +77,7 @@
             "dust": 249,
             "handlebars": 418,
             "jade": 337,
-            "ktl": 252,
+            "ktl": 265,
             "marko": 216,
             "marko (native-for)": 237,
             "nunjucks": 448,
@@ -86,7 +88,7 @@
             "dust": 462,
             "handlebars": 818,
             "jade": 664,
-            "ktl": 423,
+            "ktl": 496,
             "marko": 293,
             "marko (native-for)": 320,
             "nunjucks": 910,
@@ -96,12 +98,12 @@
     "simple-2": {
         "gzipped": {
             "dust": 268,
-            "ktl": 292,
+            "ktl": 295,
             "marko": 255
         },
         "uncompressed": {
             "dust": 648,
-            "ktl": 759,
+            "ktl": 785,
             "marko": 484
         }
     }
